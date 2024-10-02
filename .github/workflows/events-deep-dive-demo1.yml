@@ -1,5 +1,10 @@
 name: Events DeepDive Demo 1
-on: push
+on:
+  pull_requests:
+#    types: [opened, edited]
+     types:
+       - opened
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
