@@ -1,5 +1,5 @@
 name: Events DeepDive Demo 1
-on:
+on: push
 jobs:
   deploy:
     runs-on: ubuntu-latest
