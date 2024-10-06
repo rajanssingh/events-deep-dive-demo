@@ -1,4 +1,4 @@
-name: deploymentThreeJobs
+name: job-artifact
 on: push
 jobs:
   test:
