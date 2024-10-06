@@ -1,4 +1,4 @@
-name: job-artifact
+name: dependency-caching
 on: push
 jobs:
   test:
