@@ -13,7 +13,7 @@ jobs:
   build:
     needs: test
     runs-on: ubuntu-latest
-    output:
+    outputs:
       # GitHub actions --> context --> steps
       script-file: ${{ steps.publish_js_filename.outputs.my-script-file }}
     steps:
