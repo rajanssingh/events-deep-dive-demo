@@ -20,7 +20,7 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     outputs:
-      # GitHub actions --> context --> steps
+      # GitHub actions --> context --> steps -->
       script-file: ${{ steps.publish_js_filename.outputs.my-script-file }}
     steps:
       - name: Get code
